@@ -17,6 +17,10 @@ body{
     display: flex;
     position: relative;
 }
+.wrap {
+    display: flex;
+    position: inherit;
+}
 
 .wrapper .sidebar{
 position: fixed;
@@ -54,7 +58,7 @@ background: #594f8d;
 }
 
 .wrapper .sidebar ul li:hover a {
-    color: #fff;
+color: #fff;
 }
 
 .wrapper .sidebar .social_media{
@@ -78,24 +82,24 @@ background: #594f8d;
     border-top-left-radius: 5px;
 }
 
-.wrapper .main_content{
+.main_content{
 width: 100%;
 margin-left: 200px;
 }
 
-.wrapper .main_content .header{
+.main_content .header{
     padding: 20px;
     background: #fff;
     color: #717171;
     border-bottom: 1px solid #e0e4e8;
 }
 
-.wrapper .main_content .info{
+.main_content .info{
 margin: 20px;
 color: #717171;
 line-height: 25px;
 }
 
-.wrapper .main_content .info div{
+.main_content .info div{
     margin-bottom:20px;
 }
