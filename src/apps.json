@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Tis the Seasoning v1",
+        "image": "src/images/Tis_the_Seasoning_v1.png",
+        "details": "A Recipe Sharing App that uses Node and Express server to retrieve data with the help of MySQL to display User's recipes.",
+        "app_link": "https://enigmatic-basin-87747.herokuapp.com/",
+        "github_link": "https://github.com/Kaiisha05/Tis-the-Seasoning-v1"
+    },
+    {
+        "id": 2,
+        "name": "Friend Finder",
+        "image": "src/images/Tis_the_Seasoning_v1.png",
+        "details": "A compatibility-based 'FriendFinder' application will take in results from a Users' survey, then compare their answers with those from other Users. The most compatible 'match' will be displayed.",
+        "app_link": "https://friend-finder-app-ko.herokuapp.com/",
+        "github_link": "https://github.com/Kaiisha05/Friend-Finder"
+    },
+    {
+        "id": 3,
+        "name": "Trivia Game",
+        "image": "src/images/Tis_the_Seasoning_v1.png",
+        "details": "A Disney-Inspired Trivia Game using JavaScript for the logic and jQuery to manipulate HTML.",
+        "app_link": "https://kaiisha05.github.io/Trivia-Game/",
+        "github_link": "https://github.com/Kaiisha05/Trivia-Game"
+    },
+    {
+        "id": 4,
+        "name": "Weather to Drink",
+        "image": "src/images/Tis_the_Seasoning_v1.png",
+        "details": "Social App that allows User to get drink recipes based on their current or specified geographical location.",
+        "app_link": "https://kaiisha05.github.io/Weather-to-Drink/",
+        "github_link": "https://github.com/Kaiisha05/Weather-to-Drink"
+    },
+    {
+        "id": 5,
+        "name": "Liri-Node",
+        "image": "src/images/Tis_the_Seasoning_v1.png",
+        "details": "LIRI - Language Interpretation Recognition Interface. Axios packages are used to retrieve data from: Bands in Town | Spotify | OMDB using the node commands within the terminal.",
+        "app_link": "https://drive.google.com/file/d/1WelGH8861ej5zPrEUnIfXgdeHFrJrjeA/view",
+        "github_link": "https://github.com/Kaiisha05/Liri-Node"
+    },
+    {
+        "id": 6,
+        "name": "Tis the Seasoning-MERN",
+        "image": "src/images/Tis_the_Seasoning_v1.png",
+        "details": "MERN Recipe Sharing App",
+        "app_link": "https://tranquil-ocean-59356.herokuapp.com/",
+        "github_link": "https://github.com/Kaiisha05/Tis-the-Seasoning-v2-MERN"
+    }
+]

@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Sidebar from './components/Sidebar';
 import Home from './components/Home';
-import Portfolio from './components/Portfolio';
+import Portfolio from './components/portfolio/Portfolio';
 import About from './components/About';
 
 
@@ -21,6 +21,7 @@ function App() {
       </div>
     </Router>
   );
-}
+};
+
 
 export default App;
