@@ -1,4 +1,5 @@
-{"homepage": "http://kaiisha05.github.io/k.portfolio",
+{
+  "homepage": "http://kaiisha05.github.io/k.portfolio",
   "name": "k.portfolio",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-image": "^2.4.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.1"
   },

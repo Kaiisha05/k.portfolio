@@ -11,7 +11,6 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 body{
-    /* background: #f3f5f9; */
     background: linear-gradient(to right, #2d87aa 0%,#2d87aa 65%,#000000 50%, black 50%, black 100%);
 }
 
@@ -28,10 +27,8 @@ body{
 position: fixed;
 width: 200px;
 height: 100%;
-/* background: #4b4276; */
-/* background: #2d87aa; */
 background: black;
-padding: 30px 0;
+padding: 93px 0;
 }
 
 .wrapper .sidebar{
@@ -59,7 +56,6 @@ width: 25px;
 }
 
 .wrapper .sidebar ul li:hover{
-/* background: #594f8d; */
 background: #fff;
 
 }
@@ -80,7 +76,6 @@ color: black;
 .wrapper .sidebar .social_media a{
     display: block;
     width: 40px;
-    /* background: #594f8d; */
     background:black;
     height: 40px;
     line-height: 40px;
@@ -92,7 +87,7 @@ color: black;
 }
 
 .header {
-    font-size: 24px;
+    font-size: 36px;
 }
 
 .main_content{
@@ -108,11 +103,22 @@ margin-left: 200px;
 }
 
 .main_content .info{
-margin: 20px;
+background: #fff; 
+    /* opacity: 80%; */
+border-radius: 10px;
+margin: 30px;
+padding: 30px 10px 5px 10px;
 color: #717171;
 line-height: 25px;
 }
 
 p{
     margin-bottom:20px;
+}
+
+.profilepic{
+    margin-top: 600px;
+    /* margin-left: 60px; */
+    justify-content: right;
+    border-radius: 50px;
 }
