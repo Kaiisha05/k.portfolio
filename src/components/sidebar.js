@@ -11,11 +11,11 @@ function Sidebar() {
                     <li><a href='/about'><i className="fas fa-female"></i>About</a></li>
                     <li><a href='/contact'><i className="fas fa-address-card"></i> Contact</a></li>
                 </ul>
-                <div className="social_media">
+                {/* <div className="social_media">
                     <a href='https://github.com/Kaiisha05' target="_blank"><i className="fab fa-github-square"></i></a>
                     <a href='https://www.linkedin.com/in/kaiishao/' target="_blank"><i className="fab fa-linkedin"></i></a>
                     <a href="#"><i className="fab fa-google-drive"></i></a>
-                </div>
+                </div> */}
             </div>
        
         </nav>

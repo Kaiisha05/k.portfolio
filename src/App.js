@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar';
 import Home from './components/Home';
 import Portfolio from './components/portfolio/Portfolio';
 import About from './components/About';
+import Contact from './components/Contact';
 
 
 
@@ -17,6 +18,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/about' component={About} />
+          <Route path='/contact' component={Contact} />
         </Switch>
       </div>
     </Router>
