@@ -20,12 +20,7 @@ function Sidebar() {
                     <a href="#"><i className="fab fa-google-drive"></i></a>
                 </div>
             </div>
-            {/* <div className="main_content">
-                <div className="header">Welcome, I'm Kaiisha Oliver.</div>
-                <div className="info">
-                    <div>Sidebar</div>
-                </div>
-            </div> */}
+       
         </nav>
     );
 }

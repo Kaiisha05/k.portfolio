@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap);
 
+
 * {
 margin: 0;
 padding: 0;
@@ -10,7 +11,8 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 body{
-    background: #f3f5f9;
+    /* background: #f3f5f9; */
+    background: linear-gradient(to right, #2d87aa 0%,#2d87aa 65%,#000000 50%, black 50%, black 100%);
 }
 
 .wrapper {
@@ -26,7 +28,9 @@ body{
 position: fixed;
 width: 200px;
 height: 100%;
-background: #4b4276;
+/* background: #4b4276; */
+/* background: #2d87aa; */
+background: black;
 padding: 30px 0;
 }
 
@@ -39,12 +43,13 @@ margin-bottom: 30px;
 
 .wrapper .sidebar ul li{
 padding: 15px;
-border-bottom: 1px solid rgba(0,0,0,0.05);
-border-top: 1px solid rgba(225, 225, 225, 0.05);
+border-bottom: 2px solid rgba(0,0,0,0.05);
+border-top: 2px solid rgba(225, 225, 225, 0.05);
 }
 
-.wrapper .sidenar ul li a{
-color: #bdb8d7;
+
+.wrapper .sidebar ul li a{
+color: #2d87aa;
 display: block;
 }
 
@@ -54,11 +59,14 @@ width: 25px;
 }
 
 .wrapper .sidebar ul li:hover{
-background: #594f8d;
+/* background: #594f8d; */
+background: #fff;
+
 }
 
 .wrapper .sidebar ul li:hover a {
-color: #fff;
+color: black;
+
 }
 
 .wrapper .sidebar .social_media{
@@ -72,12 +80,13 @@ color: #fff;
 .wrapper .sidebar .social_media a{
     display: block;
     width: 40px;
-    background: #594f8d;
+    /* background: #594f8d; */
+    background:black;
     height: 40px;
     line-height: 40px;
     text-align: center;
     margin: 0 5px;
-    color: #bdb8d7;
+    color: #2d87aa;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
